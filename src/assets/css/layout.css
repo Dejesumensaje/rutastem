@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap');
+
+/* Estilos generales */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: #172AC2;
+    font-size: 16px;
+}
+
+header {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+a {
+    color: #FA4997;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #172AC2, 90%;
+}
+
+p {
+    margin-bottom: 30px;
+    line-height: 21px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    align-self: flex-start;
+}
+
+.brand-img {
+    width: 80px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    background-color: #172AC2;
+    text-align: center;
+    width: 100%;
+    height: 0;
+    flex-direction: column;
+    transition: 1ms;
+    visibility: hidden;
+}
+
+.show-links {
+    height: auto;
+    visibility: visible;
+}
+
+.nav-links a {
+    color: #fff;
+    margin: 25px 0;
+    display: block;
+    font-weight: bold;
+}
+
+.nav-toggle {
+    justify-content: flex-end;
+    grid-column-start: 2;
+}
+
+.nav-btn {
+    background: none;
+    color:#172AC2;
+    border:0;
+    font-size: 24px;
+}
+
+footer {
+    align-content: center;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+.brand-footer {
+    background-color: #0541BB;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-footer ul {
+    margin: 30px 0 40px;
+    padding: 0;
+}
+
+.brand-footer ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.brand-footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.institucional {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+}
+
+.edusitios a {
+    padding: 10px 40px;
+    background-color: #F94093;
+    border-radius: 0.5rem;
+}
+
+.definicion {
+    height: 500px;
+    padding: 50px;
+    color: #fff;
+    background: linear-gradient(289.68deg, #0541BB -10.45%, #2C67FA 115.75%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a.btn-detail {
+    color: #fff;
+    background-color: #172AC2;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+}
+
+.definicion h1 {
+    font-size: 48px;
+}
+
+h1 span.outline {
+    -webkit-text-stroke: 2px #fff;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+}
+
+.contenidos {
+    height: 400px;
+    padding: 50px;
+    color: #fff;
+    background: linear-gradient(0deg, #301A76 0%, #3C3FB5 98.64%);
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.contenidos h2 {
+    -webkit-text-stroke: 2px #fff;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    margin: 20px 0 5px;
+}
+
+.ruta-home {
+    height: 700px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(289.68deg, #E24090 -10.45%, #2C67FA 115.75%);
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ruta-home h2 {
+    font-size: 48px;
+    margin: 0 0 5px;
+    line-height: 46px;
+}
+
+h2 span.outline {
+    -webkit-text-stroke: 2px #fff;
+    -webkit-text-fill-color: transparent;
+    font-size: 72px;
+}
+
+.ruta-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    padding: 50px;
+    background: url(../../images/bg-ruta-stem-top.svg) no-repeat top right, url(../../images/bg-ruta-stem-bottom.svg) no-repeat bottom left;
+    align-self: center;
+}
+
+.article-title {
+    text-align: center;
+    background: linear-gradient(289.68deg, #E24090 -10.45%, #2C67FA 115.75%);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.content-principal {
+    padding: 10px 50px;
+    box-sizing: border-box;
+}
+
+.container-article {
+    margin: 0 auto;
+}
+
+.art-ruta-stem {
+    background-color: #0541BB;
+    color: #fff;
+    padding: 30px 50px 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.art-contenidos {
+    background-color: #eed061;
+    color: #0541bb;
+    padding: 30px 50px 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.amarillo {
+    background: #EED061 !important;
+    color: #0541BB !important;
+}
+
+.img-round {
+    border-radius: 200px;
+}
+
+
+@media (min-width: 992px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0;
+    }
+
+    .active-link {
+        border-bottom: solid 2px #F94093;
+    }
+
+    .brand-img {
+        width: 180px;
+    }
+    .nav-links {
+        flex-direction: row;
+        height: auto !important;
+        align-items: center;
+        background: none;
+        justify-content: flex-end;
+        text-align: center;
+    }
+    .nav-links a {
+        color:#172AC2;
+        padding: 20px;
+        margin-right: 5px;     
+        visibility: visible;   
+    }
+    .nav-toggle {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+    .brand-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+    .footer-nav {
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        align-items: center;
+        width:70%;
+    }
+    .links-footer {
+        margin-right: 100px;
+        text-align: left;
+    }
+    .institucional {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+        width: 900px;
+        margin: 0 auto;
+    }
+    .definicion h1 {
+        font-size: 81px;
+    }
+    h1 span.outline {
+        font-size: 108px;
+    }
+    .img-destacado {
+        visibility: hidden;
+        height: 0;
+    }
+
+    .definicion {
+        text-align: left;
+        height: 450px;
+        align-items: center;
+    }
+
+    .definicion h1 {
+        margin-bottom: 5px;
+        line-height: 72px;
+    }
+
+    .definicion p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    section.definicion {
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+    .img-definicion {
+        background: url('../../images/vector-definicion-big.svg') no-repeat;
+        position: absolute;
+        width: 500px;
+        height: 400px;
+        bottom: 0;
+        left: 0;
+    }
+    .content-destacado {
+        width: 700px;
+        align-self: flex-end;
+    }
+    .contenidos {
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        justify-content: flex-start;
+    }
+    .contenidos h2 {
+        font-size: 100px;
+        -webkit-text-stroke: 2px;
+    }
+    .contenidos p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .content-contenidos {
+        width: 700px;
+        text-align: left;
+    }
+    .img-contenidos {
+        background: url('../../images/contenidos-main.svg') no-repeat;
+        position: absolute;
+        width: 500px;
+        height: 400px;
+        bottom: 10;
+        right: 0;
+    }
+    .ruta-home h2 {
+        font-size: 81px;
+        line-height: 72px;
+    }
+    .ruta-home h2 span {
+        font-size: 108px;
+    }
+    .container-ruta {
+        width: 600px;
+    }
+    .ruta-home {
+        height: 500px;
+    }
+    .ruta-main {
+        height: 400px;
+    }
+    .img-article {
+        height: 420px;
+    }
+    .container-article {
+        width: 700px;
+    }
+    .article-title {
+        height: 200px;
+    }
+    .article-title h1 {
+        font-size:81px;
+    }
+    .container-article p {
+        font-size: 21px;
+        line-height: 36px;
+    }
+    .art-ruta-stem {
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        margin: 20px auto;
+        text-align: left;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .art-contenidos {
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        margin: 20px auto;
+        text-align: left;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .heading-article {
+        width: 400px;
+    }
+}
