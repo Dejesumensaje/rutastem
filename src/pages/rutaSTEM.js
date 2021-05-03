@@ -15,7 +15,7 @@ const RutaSTEM = () => {
                     <div className="heading-article">
                         <h2>Plataforma de formación</h2>
                         <p>Para facilitar la apropiación del enfoque educativo STEM, diseñamos una metodología gamificada que hace mucho más fácil la navegación por el universo STEM.</p>
-                        <a href="https://mintic.gov.co" target="_blank" rel="noreferrer" className="btn-detail amarillo">Conocer</a>
+                        <a href="https://portalstem.cpe.gov.co/" target="_blank" rel="noreferrer" className="btn-detail amarillo">Conocer</a>
                     </div>
                     <div>
                         <StaticImage

@@ -31,7 +31,7 @@ const Header = () => {
           <Link to="/definicion" className="nav-link" activeClassName="active-link" onClick={()=> setShow(false)}>¿Qué es STEM?</Link>
           <Link to="/rutaSTEM" className="nav-link" activeClassName="active-link" onClick={()=> setShow(false)}>Ruta STEM</Link>
           <Link to="/contenidos" className="nav-link" activeClassName="active-link" onClick={()=> setShow(false)}>Contenidos</Link>
-          <a href="https://google.com" rel="noreferrer" target="_blank" className="nav-link" activeClassName="active-link" onClick={()=> setShow(false)}>Portal Nacional STEM</a>
+          <a href="https://portalstem.cpe.gov.co/" rel="noreferrer" target="_blank" className="nav-link" activeClassName="active-link" onClick={()=> setShow(false)}>Portal Nacional STEM</a>
       </div>
     </header>
   )

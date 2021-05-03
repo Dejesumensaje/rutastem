@@ -20,7 +20,7 @@ const Footer = () => {
                             <li><Link to="/definicion">¿Qué es STEM?</Link></li>
                             <li><Link to="/rutaSTEM">Ruta STEM</Link></li>
                             <li><Link to="/contenidos">Contenidos</Link></li>
-                            <li><a href="https://google.com" target="_blank" rel="noreferrer">Portal Nacional STEM</a></li>
+                            <li><a href="https://portalstem.cpe.gov.co/" target="_blank" rel="noreferrer">Portal Nacional STEM</a></li>
                         </ul>
                     </div>
                     <div className="edusitios">
