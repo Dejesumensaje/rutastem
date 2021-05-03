@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="institucional">
                 <div class="logoMEN">
                     <StaticImage
-                        src="../images/logo-MEN.png"
+                        src="../images/men.png"
                         placeholder="tracedSVG"
                         layout="constrained"
                         width={300}
